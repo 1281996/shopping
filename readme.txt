@@ -4,3 +4,4 @@ hello
 =======
 lol
 >>>>>>> master
+lol2
