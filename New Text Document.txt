@@ -1,0 +1,4 @@
+<html>
+<body<center><p>Welcome to online book shop!</p>
+</body>
+</html>
