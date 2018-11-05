@@ -1140,8 +1140,9 @@ JAMES        449.489353
 FORD         449.489353
 MILLER       447.789353
 
-53)
 
+53.SQL> SELECT ROUND(SYSDATE-HIREDATE) FROM EMP;
+54.SQL> select lower(ename)||to_char(hiredate,'"joined on the" ddspth "of" month "of the year"yyyysp') from emp;
 
 55)
 
