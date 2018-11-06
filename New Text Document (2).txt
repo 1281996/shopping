@@ -33,15 +33,35 @@
 
 </p>
 
-
 </div>
 
-<form>
-Name: <input type="text" name="na">
-Password: < input type="text" name="pass">
-Email:<input type="email" name="em">
-Phone Number:< input type="number" min="10" max="10">
-Date of Birth:<input type="date"> <input type="month"> <input type="year">
-</form>
+
+
+
+
+
+
+
+
+<table border="1">
+<tr>
+<th>coverimage</th>
+<th>author detaila</th>
+<th>price>M/th>
+<th>add to cart</th>
+
+
+
+
+</tr>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+
+</table>
 </body>
 </html>

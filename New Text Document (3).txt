@@ -33,15 +33,46 @@
 
 </p>
 
+<tr>
+<th>Book Name</th>
+<th>price</th>
+<th>quantity</th>
+<th>amount</th>
+
+</tr>
+<tr>
+<th>booklyn</th>
+<th>50</th>
+<th>1</th>
+<th>RS.50</th>
+
+</tr>
+
+
+<tr>
+<th>story book</th>
+<th>50</th>
+<th>1</th>
+<th>RS.50</th>
+
+</tr>
+<tr>
+<th>business</th>
+<th>50</th>
+<th>1</th>
+<th>RS.50</th>
+
+</tr>
+
+<tr>
+<th>total</th>
+<th>RS.150</th></tr>
+
+<tr>
+<th>total</th></tr>
+
+
 
 </div>
-
-<form>
-Name: <input type="text" name="na">
-Password: < input type="text" name="pass">
-Email:<input type="email" name="em">
-Phone Number:< input type="number" min="10" max="10">
-Date of Birth:<input type="date"> <input type="month"> <input type="year">
-</form>
 </body>
 </html>

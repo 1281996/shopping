@@ -1,0 +1,28 @@
+box-1
+{
+float:left;
+width:33.3%;
+border:1px solid;
+padding:10px;
+}
+striped-border {
+        border: 1px dashed #000;
+        width: 50%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+table {
+    border-collapse: collapse;
+ width: 100%;
+}
+
+table, th {
+    border: 1px solid black;
+}
+.myform{
+     padding:20px;}
+.myform input{
+               padding: 6px;
+               width:9%;
+}
