@@ -1,0 +1,48 @@
+<html>
+<head>
+
+
+
+
+
+</head>
+<body>
+<form>
+<script type="text/javascript">
+var val=false;
+var massm=parseInt(prompt("enter mass mark"));
+var hm=parseInt(prompt("enter height mark"));
+
+var massj=parseInt(prompt("enter mass john"));
+var hj=parseInt(prompt("enter height john"));
+ 
+   var bmim=massm/(hm*hm);
+   var bmij=massj/(hj*hj);
+document.write("mark bmi"+bmim);
+document.write("<br>");
+document.write("john bmi"+bmij);
+document.write("<br>");
+   
+if(bmim>bmij)
+{
+alert("bmi mark is greater mass ");
+
+ val=true;
+}
+else
+{
+alert("bmi john is greater mass");
+}
+document.write("is marks has higher bmi than john?"+val);
+
+     
+ 
+
+  
+
+</script>
+
+</form>
+
+</body>
+</hmtl>
