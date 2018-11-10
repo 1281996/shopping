@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+function calHeat()
+{
+  var f=document.f1.t1.value;
+ if(f=="")
+  {
+    alert("enter valid temp");
+}
+else if(isNaN(f))
+{
+ alert("enter valid number temp")
+}
+
+else{
+    alert("If there are no errors and user input is valid");
+   var c=(f-32)*5/9;
+   document.write(c+" degree in celsius");
+
+    }
+}
+</script>
+</head>
+<body>
+<form name="f1">
+
+<input type="text" name="t1">
+<input type="submit" value="showresults" onclick="calHeat()">
+
+</form>
+
+</body>
+</html>
