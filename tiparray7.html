@@ -1,0 +1,137 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+var tipj=new Array(5);
+var totj=new Array(5);
+var tipm=new Array(4);
+var totm=new Array(4);
+var resbillj=[124,48,268,180,42];
+var resbillm=[77,375,110,45];
+document.write(resbillj.length);
+ document.write(resbillm.length);
+document.write("<br/>");
+var len=resbillj.length;
+var len1=resbillm.length;
+calTipj();
+calTipm();
+function calTipj()
+{
+    
+for(i=0;i<len;i++)
+{
+  if(resbillj[i]<50)
+     {
+         var tip1=resbillj[i]*(20/100);
+         tipj[i]=tip1;
+         totj[i]=tip1+resbillj[i];
+     }
+
+else if(resbillj[i]>=50 && resbillj[i]<200)
+     {
+         var tip1=resbillj[i]*(15/100);
+         tipj[i]=tip1;
+         totj[i]=tipj[i]+resbillj[i];
+
+     }
+else
+     {
+         var tip1=resbillj[i]*(10/100);
+         tipj[i]=tip1;
+         totj[i]=tipj[i]+resbillj[i];
+
+     }
+  
+
+}
+}
+
+
+function calTipm()
+{
+    
+for(i=0;i<len1;i++)
+{
+  if(resbillm[i]<50)
+     {
+         var tip2=resbillm[i]*(20/100);
+         tipm[i]=tip2;
+         totm[i]=tip2+resbillm[i];
+     }
+
+else if(resbillm[i]>=50 && resbillm[i]<200)
+     {
+         var tip2=resbillj[i]*(15/100);
+         tipm[i]=tip2;
+         totm[i]=tipm[i]+resbillm[i];
+
+     }
+else
+     {
+         var tip2=resbillm[i]*(10/100);
+         tipm[i]=tip2;
+         totm[i]=tipm[i]+resbillm[i];
+
+     }
+  
+
+}
+}
+
+
+
+
+
+
+
+ var sumj=0;
+var summ=0;
+var tiplen=tipj.length;
+var totlen=totj.length;
+for(i=0;i<tiplen;i++)
+{
+document.write("tipj "+tipj[i]+"<br>");
+sumj=sumj+tipj[i];
+}
+document.write("avg of john"+(sumj/5));
+document.write("<br>");
+document.write("sum of john"+sumj);
+document.write("<br>");
+
+for(i=0;i<totlen;i++)
+{
+document.write("totj "+totj[i]+"<br/>");
+}
+
+
+
+
+
+var tiplen1=tipm.length;
+var totlen1=totm.length;
+for(i=0;i<tiplen1;i++)
+{
+document.write("tipm "+tipm[i]+"<br>");
+summ=summ+tipm[i];
+}
+
+document.write("avg of mark"+(summ/4));
+document.write("<br>");
+document.write("sum of mark"+summ);
+document.write("<br>");
+for(i=0;i<totlen1;i++)
+{
+document.write("totm "+totm[i]+"<br/>");
+}
+if((sumj/5)>(summ/4))
+{
+
+document.write("johnesfamily have avg tip is more");
+}
+else {
+document.write("marksfamily  haveavg tip is more");
+}
+</script>
+</body>
+</html>

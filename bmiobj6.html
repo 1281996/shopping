@@ -1,0 +1,63 @@
+<html><head>
+
+</head>
+<body>
+<script>
+var objm={
+           
+           mass:34,
+           height:23
+};
+var objj={
+           
+           mass:33,
+          height:21
+};
+
+var objm=new calbmimarks();
+document.write("marksbmi"+"=>"+objm.bmimarks);
+
+document.write("<br>");
+
+var objj=new calbmijohn();
+
+document.write(objj.bmijohn);
+document.write("<br>");
+
+if(objm.bmimarks>objj.bmijohn){
+ document.write("name"+objm.name+"bmi"+objm.bmimarks);
+}
+else if(objm.bmimarks<objj.bmijohn){
+document.write("name"+objj.name+"<br>"+"bmi"+objj.bmijohn);
+}
+else{
+document.write("same bmi's");
+}
+
+function calbmimarks(){
+var bmim={bmimarks : objm.mass/(objm.height*objm.height),
+          name:"marks" };
+return bmim;
+
+}
+
+function calbmijohn(){
+var bmij={bmijohn :objj.mass/(objj.height*objj.height),
+          name : "john"};
+return bmij;
+
+}
+
+ 
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+       
+  
