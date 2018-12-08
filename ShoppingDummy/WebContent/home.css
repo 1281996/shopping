@@ -1,0 +1,61 @@
+
+@CHARSET "ISO-8859-1";
+.head{
+  background-color:#F0F8FF;
+  
+  height:20%; /* The width is 20%, by default */
+}
+
+.search{
+  background-color:#FFE4E1;
+ font-color: 
+  height:30%; /* The width is 20%, by default */
+}
+.search.Search{
+	font-color:	#808000;
+}
+.pro1{
+	backgroun-color:#yellow;
+}
+#pic{
+	float:left;
+}
+#home{	
+  	height:30%; 	
+}
+
+header{
+height:30%;	
+background-color:#FAEBD7;
+}
+
+.product1{
+background-color:#ADD8E6;
+}
+
+.product2{
+background-color:#E0FFFF;
+}
+
+footer{
+height:20%;
+background-color:#778899;
+}
+
+#main{
+height:50%;
+background-color:#778899;
+}
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.@CHARSET "ISO-8859-1";
